@@ -1,19 +1,19 @@
-what is statistics and its types?
+# what is statistics and its types?
 Statistics deals with the collection, organization, analysis, interpretation, and presentation of data.
 Statistics is widely used in various fields such as business, healthcare, economics, social sciences, and engineering to analyze real-world problems and draw meaningful conclusions.
 
-Types of Statistics:
+# Types of Statistics:
 Descriptive Statistics
 Inferential Statistics
 
-1. Descriptive Statistics:
+## 1. Descriptive Statistics:
 Descriptive statistics summarize and organize data to make it easily understandable.It involves the use of numerical and graphical methods.
 Techniques of Descriptive Statistics:
 1. Measures of Central Tendency:(mean, mode, median)
 2. Measures of Dispersion (Variability): (Variance, Standard Deviation)
 3. Graphical Representation of Data: (Bar Graphs, Histograms, Pie Charts, Box Plots)
 
-2. Inferential Statistics:
+# 2. Inferential Statistics:
 Inferential statistics allows us to make predictions or generalizations about a larger population based on a sample of data. It is used to analyze relationships, test hypotheses, and make forecasts.
 Techniques of Inferential Statistics:
 1. Hypothesis Testing 
@@ -21,22 +21,22 @@ Techniques of Inferential Statistics:
 3. chi-square test
 4. Anova test or F-test
 
-what is population and sample and sampling techniques?
-Population
+# what is population and sample and sampling techniques?
+# Population
 A population refers to the entire group of individuals, objects, or events that share a common characteristic and are the subject of a statistical study.
 Example:
 All students in a university.
 All patients in a hospital.
 
-Sample
+# Sample
 A sample is a subset of the population selected for analysis.
 Example:
 200 students selected from a university for a survey.
 
-Sampling Techniques
+# Sampling Techniques
 Since studying an entire population is impractical, researchers use sampling techniques to select a subset of data.
 
-Types of Sampling:
+# Types of Sampling:
 1. Simple Random Sampling
 Every member of the population has an equal chance of being selected.
 Example:
@@ -50,7 +50,7 @@ A starting point is chosen randomly, and then every kth element is selected.
 4. Convenience Sampling
 The researcher selects individuals based on their expertise or relevance to the study.
 
-What are Variables in Statistics?
+# What are Variables in Statistics?
 A variable is any characteristic, number, or quantity that can change or vary across individuals or observations in a dataset. Variables are used to collect and analyze data in statistics.
 
 Example:
@@ -59,9 +59,9 @@ Height of students (can be different for each student).
 Age of employees (varies from person to person).
 Number of sales in a store (changes daily).
 
-Types of Variables
+# Types of Variables
 
-Quantitative Variables (Numerical Data) – Variables that represent numerical values.
+#Quantitative Variables (Numerical Data) – Variables that represent numerical values.
 1. Discrete Variables (Countable Data)
 Variables that take specific, finite values (whole numbers).
 They cannot take decimal or fractional values.
