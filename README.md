@@ -163,3 +163,52 @@ Outliers are data points that significantly deviate from the rest of the data. C
     * The Z-score represents the number of standard deviations a data point is from the mean.
     * Formula: Z = (x - μ) / σ
     * Data points with a Z-score greater than a certain threshold (e.g., ±3) are considered outliers.
+
+
+## 1. Normal Distribution
+
+The normal distribution, also known as the Gaussian distribution, is a symmetric, bell-shaped distribution. It is characterized by its mean (μ) and standard deviation (σ).
+
+* **Key Properties:**
+    * Symmetric around the mean.
+    * Mean, median, and mode are equal.
+    * Determined by two parameters: mean (μ) and standard deviation (σ).
+
+###  Empirical Rule (68-95-99.7 Rule)
+
+The empirical rule describes the percentage of data that falls within a certain number of standard deviations from the mean in a normal distribution:
+
+* **68%:** Approximately 68% of the data falls within one standard deviation of the mean (μ ± 1σ).
+* **95%:** Approximately 95% of the data falls within two standard deviations of the mean (μ ± 2σ).
+* **99.7%:** Approximately 99.7% of the data falls within three standard deviations of the mean (μ ± 3σ).
+
+## 2. Central Limit Theorem (CLT)
+
+The Central Limit Theorem states that the distribution of the sample mean approaches a normal distribution as the sample size increases, regardless of the shape of the original population distribution.
+
+* **Key Points:**
+    * Applies to the distribution of sample means, not individual data points.
+    * Requires a sufficiently large sample size (typically n ≥ 30).
+    * The mean of the sample means is equal to the population mean (μ).
+    * The standard deviation of the sample means (standard error) is σ / √n, where σ is the population standard deviation and n is the sample size.
+    * This theorem is fundamental for statistical inference.
+
+## 3. Log-Normal Distribution
+
+The log-normal distribution is a probability distribution of a random variable whose logarithm is normally distributed. It is often used to model variables that are positively skewed and bounded by zero.
+
+* **Key Properties:**
+    * Positively skewed.
+    * Defined for positive values only.
+    * If Y has a log-normal distribution, then ln(Y) has a normal distribution.
+    * Used to model things like asset prices, income, and survival times.
+
+## 4. Power Law Distribution
+
+A power law distribution is a probability distribution where the frequency of an event is inversely proportional to a power of its size or rank. It is characterized by a "long tail," meaning that rare events have a significant impact.
+
+* **Key Properties:**
+    * Scale-free.
+    * Long-tailed.
+    * Common in natural and social phenomena (e.g., city sizes, website traffic, earthquakes).
+    * Examples include the Pareto distribution, and Zipf's law.
