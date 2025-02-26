@@ -212,3 +212,53 @@ A power law distribution is a probability distribution where the frequency of an
     * Long-tailed.
     * Common in natural and social phenomena (e.g., city sizes, website traffic, earthquakes).
     * Examples include the Pareto distribution, and Zipf's law.
+
+## Pareto Distribution
+
+The Pareto distribution, also known as the power law distribution, is a probability distribution that models phenomena where a small number of items account for a large proportion of the total activity or value. It's often described by the "80/20 rule," where 80% of the effects come from 20% of the causes.
+
+**Key Characteristics:**
+
+* **Skewed Distribution:** It's heavily skewed to the right, meaning most values are small, with a long tail of large values.
+* **Power Law:** The probability of observing a large value decreases as a power of the value.
+* **Scale and Shape Parameters:** It's defined by two parameters:
+    * **Scale (x_m):** The minimum possible value.
+    * **Shape (alpha):** Determines the shape of the distribution. Higher alpha values result in a steeper decline in probability.
+
+**Applications:**
+
+* Income distribution
+* Website traffic
+* Size of cities
+* File sizes
+
+## Hypothesis Testing
+
+Hypothesis testing is a statistical method used to determine whether there is enough evidence in a sample of data to infer that a certain condition is true for the entire population. It involves formulating two competing hypotheses:
+
+* **Null Hypothesis (H0):** A statement that there is no effect or no difference. It's the default assumption.
+* **Alternative Hypothesis (H1 or Ha):** A statement that there is an effect or a difference. It's what the researcher is trying to find evidence for.
+
+**Steps in Hypothesis Testing:**
+
+1.  **Formulate Hypotheses:** Define the null and alternative hypotheses.
+2.  **Choose a Significance Level (alpha):** This is the probability of rejecting the null hypothesis when it's actually true (Type I error). Common values are 0.05 and 0.01.
+3.  **Select a Test Statistic:** Choose a statistic that measures the difference between the sample data and what is expected under the null hypothesis (e.g., t-statistic, z-statistic, chi-square statistic).
+4.  **Calculate the Test Statistic and p-value:** Compute the value of the test statistic and the p-value, which is the probability of observing a test statistic as extreme as or more extreme than the one calculated, assuming the null hypothesis is true.
+5.  **Make a Decision:**
+    * If the p-value is less than the significance level (p < alpha), reject the null hypothesis.
+    * If the p-value is greater than or equal to the significance level (p >= alpha), fail to reject the null hypothesis.
+6.  **Draw a Conclusion:** Interpret the results in the context of the research question.
+
+**Example:**
+
+Suppose we want to test if the average income in a city follows a Pareto distribution with a specific alpha value.
+
+* **H0:** The average income follows a Pareto distribution with alpha = X.
+* **H1:** The average income does not follow a Pareto distribution with alpha = X.
+* We would then collect sample income data, perform a statistical test (e.g., goodness-of-fit test), calculate the p-value, and make a decision based on the significance level.
+
+
+* Failing to reject the null hypothesis does not mean it's true; it simply means there's not enough evidence to reject it.
+* Hypothesis testing relies on probability and statistical inference, so there's always a chance of making an error.
+* The correct test to use depends on the underlying data, and the question being asked.
