@@ -262,3 +262,78 @@ Suppose we want to test if the average income in a city follows a Pareto distrib
 * Failing to reject the null hypothesis does not mean it's true; it simply means there's not enough evidence to reject it.
 * Hypothesis testing relies on probability and statistical inference, so there's always a chance of making an error.
 * The correct test to use depends on the underlying data, and the question being asked.
+
+## Probability Distributions
+
+Probability distributions describe the likelihood of different outcomes in a random experiment.
+
+### Probability Mass Function (PMF)
+
+* The PMF, denoted as P(X=x), gives the probability that a discrete random variable X takes on a specific value x.
+* Used for discrete random variables (e.g., number of coin flips, number of defective items).
+    * P(X=x) ≥ 0 for all x.
+    * Σ P(X=x) = 1 (sum of probabilities over all possible values is 1).
+
+* **Example:** For a fair coin flip, the PMF is P(Heads) = 0.5 and P(Tails) = 0.5.
+
+### Probability Density Function (PDF)
+
+* The PDF, denoted as f(x), describes the relative likelihood of a continuous random variable X taking on a given value x.
+* Used for continuous random variables (e.g., height, weight, temperature).
+    * f(x) ≥ 0 for all x.
+    * The area under the PDF curve over a given interval represents the probability that X falls within that interval.
+    * ∫ f(x) dx = 1 (total area under the curve is 1).
+
+* **Example:** The normal distribution's bell-shaped curve is a PDF.
+
+### Cumulative Distribution Function (CDF)
+
+* The CDF, denoted as F(x), gives the probability that a random variable X takes on a value less than or equal to x.
+* Used for both discrete and continuous random variables.
+    * F(x) = P(X ≤ x).
+    * F(x) is a non-decreasing function.
+    * F(-∞) = 0 and F(∞) = 1.
+* **Relationship to PMF/PDF:**
+    * For discrete variables: F(x) = Σ P(X=xi) for all xi ≤ x.
+    * For continuous variables: F(x) = ∫ f(t) dt from -∞ to x.
+
+## Z-Test in Hypothesis Testing
+
+The Z-test is a statistical test used to determine whether there is a significant difference between a sample mean and a population mean, or between two sample means, when the population standard deviation is known.
+
+### Z-Test Formula
+
+The Z-test statistic is calculated as:
+Z = (X̄ - μ) / (σ / √n)
+
+Where:
+
+* X̄ is the sample mean.
+* μ is the population mean.
+* σ is the population standard deviation.
+* n is the sample size.
+
+### Assumptions
+
+* The population standard deviation (σ) is known.
+* The sample is randomly selected.
+* The sample size is sufficiently large (typically n ≥ 30) or the population is normally distributed.
+
+### Steps for Performing a Z-Test
+
+1.  **State the hypotheses:** Define the null and alternative hypotheses.
+2.  **Determine the significance level (α).**
+3.  **Calculate the Z-test statistic.**
+4.  **Determine the critical value or p-value:** Using the standard normal distribution table or a statistical calculator.
+5.  **Make a decision:** Compare the Z-test statistic to the critical value or compare the p-value to α.
+6.  **Draw a conclusion:** Interpret the results in the context of the problem.
+
+### Example
+
+Suppose we want to test if the average height of students in a school is significantly different from 170 cm. We know the population standard deviation is 10 cm and we take a sample of 100 students with a mean height of 172 cm.
+
+* H0: μ = 170
+* H1: μ ≠ 170
+* α = 0.05
+
+Calculate the Z-statistic: Z = (172 - 170) / (10 / √100) = 2.
