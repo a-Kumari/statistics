@@ -337,3 +337,50 @@ Suppose we want to test if the average height of students in a school is signifi
 * α = 0.05
 
 Calculate the Z-statistic: Z = (172 - 170) / (10 / √100) = 2.
+
+
+##  T-Test
+
+The t-test is a statistical hypothesis test used to determine if there is a significant difference between the means of two groups. It's particularly useful when dealing with small sample sizes or when the population standard deviation is unknown.
+
+
+* Assumptions: Data should be approximately normally distributed.
+* P-value: The probability of observing the results if the null hypothesis is true. A small p-value (typically < 0.05) indicates strong evidence against the null hypothesis.
+* Degrees of freedom: number of independent pieces of information that went into calculating the estimate.
+
+##  Type I and Type II Errors
+
+In hypothesis testing, there's always a risk of making incorrect conclusions.
+
+* **Type I Error (False Positive):** Rejecting the null hypothesis when it is actually true.
+    * Symbolized as α (alpha).
+    * Example: Concluding that a drug is effective when it is not.
+* **Type II Error (False Negative):** Failing to reject the null hypothesis when it is actually false.
+    * Symbolized as β (beta).
+    * Example: Failing to detect that a drug is effective when it actually is.
+* **Power (1 - β):** The probability of correctly rejecting the null hypothesis when it is false.
+
+* There's often a trade-off between Type I and Type II errors. Decreasing one increases the other.
+* The significance level (α) determines the probability of a Type I error.
+
+##  Confidence Interval and Margin of Error
+
+A confidence interval provides a range of values within which we are reasonably confident that the true population parameter lies.
+
+* **Confidence Interval (CI):** A range of values, calculated from sample data, that is likely to contain the true population parameter.
+    * Example: A 95% confidence interval for the average height of a population.
+* **Margin of Error (ME):** The range of values above and below the sample statistic that defines the confidence interval.
+    * It is directly related to the standard error and the chosen confidence level.
+    * A larger margin of error results in a wider confidence interval.
+
+* Confidence Interval = Sample Statistic ± Margin of Error
+* The confidence level (e.g., 95%) determines the margin of error. Higher confidence levels result in wider intervals.
+* The margin of error is affected by the standard deviation of the sample, and the sample size. Larger sample sizes reduce the margin of error.
+
+### Formula example:
+
+For a sample mean:
+
+ME = Z * (standard deviation / sqrt(sample size))
+
+Where Z is the z-score corresponding to the desired confidence level. For a 95% confidence interval, Z is approximately 1.96.
