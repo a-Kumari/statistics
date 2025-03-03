@@ -384,3 +384,58 @@ For a sample mean:
 ME = Z * (standard deviation / sqrt(sample size))
 
 Where Z is the z-score corresponding to the desired confidence level. For a 95% confidence interval, Z is approximately 1.96.
+
+##  Chi-Square Test
+
+The Chi-Square test is a statistical test used to analyze categorical data. It helps determine if there's a significant association between two categorical variables or if observed frequencies differ significantly from expected frequencies.
+
+### Types:
+
+* **Goodness-of-fit test:** Determines if the observed frequency distribution of a single categorical variable matches an expected distribution.
+* **Test of independence:** Determines if there's a significant association between two categorical variables.
+
+* Uses the Chi-Square distribution.
+* Involves comparing observed and expected frequencies.
+* Sensitive to sample size.
+* Degrees of freedom are calculated based on the number of categories.
+
+##  Analysis of Variance (ANOVA)
+
+ANOVA is a statistical technique used to compare the means of two or more groups. It determines if there are statistically significant differences between the group means.
+
+* Used for comparing means of multiple groups.
+* Partitions the total variance into between-group and within-group variance.
+* Uses the F-distribution and F-test.
+* Assumptions include normality of data and homogeneity of variances.
+
+### Types:
+
+* **One-way ANOVA:** Compares means of groups based on one factor.
+* **Two-way ANOVA:** Compares means of groups based on two factors.
+* **Repeated Measures ANOVA:** Compares means of groups when the same subjects are used in each group.
+
+##  F-Distribution
+
+The F-distribution is a continuous probability distribution used in hypothesis testing, particularly in ANOVA and regression analysis. It describes the ratio of two variances.
+
+* Defined by two parameters: degrees of freedom for the numerator (df1) and degrees of freedom for the denominator (df2).
+* Positively skewed.
+* Used to calculate p-values for F-tests.
+* Used to compare variances.
+
+## F-Test
+
+The F-test is a statistical test that uses the F-distribution to determine if there's a significant difference between variances or if a regression model is statistically significant.
+
+### Applications:
+
+* **ANOVA:** Used to determine if there are significant differences between group means.
+* **Regression analysis:** Used to assess the overall significance of a regression model.
+* **Comparing Variances:** Used to compare two variances.
+
+### Relationship to ANOVA and F-Distribution:
+
+* In ANOVA, the F-test calculates the F-statistic, which is the ratio of between-group variance to within-group variance.
+* The F-statistic is then compared to the F-distribution to determine the p-value.
+* If the P value is sufficiently small, we reject the null hypothesis, and conclude that there are significant differences between the means of the groups.
+* The F distribution provides the probability of observing an F statistic given the null hypothesis is true.
